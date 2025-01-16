@@ -74,7 +74,7 @@ const Settings = () => {
                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
                                 lucide-chevron-left"><path d="m15 18-6-6 6-6" /></svg> Notifications</a>
 
-                
+
               </div>
             </section>
 
@@ -82,37 +82,7 @@ const Settings = () => {
           </main>
 
           {/* Table of Contents */}
-          <aside className="hidden lg:block w-64 border-x-[1px] border-[#414141] p-6">
-            <div className="top-20">
-              <h4 className="text-sm font-semibold mb-4">On This Page</h4>
-              <nav className="space-y-2 text-sm">
-                <Link
-                  to="#categories"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Live Chatting
-                </Link>
-                <Link
-                  to="#features"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Kanban Boards
-                </Link>
-                <Link
-                  to="#configure"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Whiteboard / Drawing
-                </Link>
-                <Link
-                  to="#configure"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Projects Overview
-                </Link>
-              </nav>
-            </div>
-          </aside>
+
         </div>
       </div>
     </div>

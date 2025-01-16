@@ -87,32 +87,7 @@ const Goals = () => {
           </main>
 
 
-          {/* Table of Contents */}
-          <aside className="hidden lg:block w-64 border-x-[1px] border-[#414141] p-6">
-            <div className="top-20">
-              <h4 className="text-sm font-semibold mb-4">On This Page</h4>
-              <nav className="space-y-2 text-sm">
-                <Link
-                  to="#categories"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Create Project
-                </Link>
-                <Link
-                  to="#features"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Run the CLI
-                </Link>
-                <Link
-                  to="#configure"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Configure components.json
-                </Link>
-              </nav>
-            </div>
-          </aside>
+
         </div>
       </div>
     </div>

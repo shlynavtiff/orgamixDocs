@@ -72,8 +72,8 @@ export default function DocsLayout() {
                         <section className="mt-6">
                             <div className="flex flex-row items-center justify-between">
 
-                                <a href="/testing/dashboard" className="flex flex-row items-center justify-center"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
+                                <a href="/testing/dashboard" className="flex flex-row items-center justify-center"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
                                 lucide-chevron-left"><path d="m15 18-6-6 6-6" /></svg> Dashboard</a>
 
                                 <a href="/testing/notes" className="flex flex-row items-center justify-center"> Notes <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -86,31 +86,7 @@ export default function DocsLayout() {
                     </main>
 
                     {/* Table of Contents */}
-                    <aside className="hidden lg:block w-64 border-x-[1px] border-[#414141] p-6">
-                        <div className="sticky top-20">
-                            <h4 className="text-sm font-semibold mb-4">On This Page</h4>
-                            <nav className="space-y-2 text-sm">
-                                <Link
-                                    to="#new-Tasks"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Create Project
-                                </Link>
-                                <Link
-                                    to="#run-cli"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Run the CLI
-                                </Link>
-                                <Link
-                                    to="#configure"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Configure components.json
-                                </Link>
-                            </nav>
-                        </div>
-                    </aside>
+
                 </div>
             </div>
         </div>

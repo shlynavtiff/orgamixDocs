@@ -207,31 +207,7 @@ export default function DocsLayout() {
                     </main>
 
                     {/* Table of Contents */}
-                    <aside className="hidden sm:block w-52 border-x-[1px] border-[#414141] p-6">
-                        <div className="sticky top-20">
-                            <h4 className="text-sm font-semibold mb-4">On This Page</h4>
-                            <nav className="space-y-2 text-sm">
-                                <Link
-                                    to="#create-project"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Create Project
-                                </Link>
-                                <Link
-                                    to="#run-cli"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Run the CLI
-                                </Link>
-                                <Link
-                                    to="#configure"
-                                    className="block text-muted-foreground hover:text-foreground"
-                                >
-                                    Configure components.json
-                                </Link>
-                            </nav>
-                        </div>
-                    </aside>
+
                 </div>
             </div>
         </div>

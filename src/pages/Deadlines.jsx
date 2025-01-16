@@ -56,7 +56,7 @@ const Deadlines = () => {
               <img src={Deadlines1} alt="" />
               <img src={Deadlines2} alt="" />
               <img src={Deadlines3} alt="" />
-              
+
             </section>
 
             <section className="mt-6">
@@ -89,38 +89,7 @@ const Deadlines = () => {
 
           </main>
 
-          {/* Table of Contents */}
-          <aside className="hidden lg:block w-64 border-x-[1px] border-[#414141] p-6">
-            <div className="top-20">
-              <h4 className="text-sm font-semibold mb-4">On This Page</h4>
-              <nav className="space-y-2 text-sm">
-                <Link
-                  to="#categories"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Live Chatting
-                </Link>
-                <Link
-                  to="#features"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Kanban Boards
-                </Link>
-                <Link
-                  to="#configure"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Whiteboard / Drawing
-                </Link>
-                <Link
-                  to="#configure"
-                  className="block text-muted-foreground hover:text-foreground"
-                >
-                  Projects Overview
-                </Link>
-              </nav>
-            </div>
-          </aside>
+
         </div>
       </div>
     </div>
