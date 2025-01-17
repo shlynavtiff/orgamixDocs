@@ -18,28 +18,29 @@ import Dashboard from './pages/Dashboard'
 import Goal2 from './pages/Goal2'
 import Notifications from './pages/Notifications'
 import Settings from './pages/Settings'
+import Drilon from './pages/Drilon'
 
 function App() {
 
   return (
     <div>
-     <Header/>
-        <Routes>
-          <Route path="/" element={<Layout />} />
-          <Route path="/testing" element={<Testing />} />
-          <Route path="/testing/tasks" element={<Tasks />} />
-          <Route path="/testing/notes" element={<Notes />} />
-          <Route path="/testing/dashboard" element={<Dashboard />} />
-          <Route path="/testing/projects" element={<Projects />} />
-          <Route path="/testing/goals" element={<Goals />} />
-          <Route path="/testing/pomodoro" element={<Pomodoro />} />
-          <Route path="/testing/deadline" element={<Deadlines />} />
-          <Route path="/testing/ask-ai" element={<AskAI />} />
-          <Route path="/testing/notifications" element={<Notifications />} />
-          <Route path="/testing/settings" element={<Settings />} />
-        </Routes>
-      
-    <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Drilon />} />
+        <Route path="/testing" element={<Testing />} />
+        <Route path="/testing/tasks" element={<Tasks />} />
+        <Route path="/testing/notes" element={<Notes />} />
+        <Route path="/testing/dashboard" element={<Dashboard />} />
+        <Route path="/testing/projects" element={<Projects />} />
+        <Route path="/testing/goals" element={<Goals />} />
+        <Route path="/testing/pomodoro" element={<Pomodoro />} />
+        <Route path="/testing/deadline" element={<Deadlines />} />
+        <Route path="/testing/ask-ai" element={<AskAI />} />
+        <Route path="/testing/notifications" element={<Notifications />} />
+        <Route path="/testing/settings" element={<Settings />} />
+      </Routes>
+
+      <Footer />
     </div>
   )
 }
